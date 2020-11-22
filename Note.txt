@@ -8,8 +8,12 @@ https://eonet.sci.gsfc.nasa.gov/api/v2.1/events
 https://github.com/google-map-react/google-map-react
 https://developers.google.com/maps/documentation/javascript/get-api-key
 https://github.com/iconify/iconify
+https://github.com/iconify/iconify-react
+https://www.npmjs.com/package/@iconify/icons-mdi
 ==============================================================
 
 C:\react\wildfire-tracker>npm install
 
+mdi: material design icons
+C:\react\wildfire-tracker>npm i google-map-react @iconify/react @iconify/icons-mdi
 
