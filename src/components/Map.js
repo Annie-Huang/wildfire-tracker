@@ -2,7 +2,23 @@ import GoogleMapReact from 'google-map-react';
 import LocationMarker from './LocationMarker';
 import React from "react";
 
-const Map = ({center, zoom}) => {
+const Map = ({eventData, center, zoom}) => {
+/*
+  id === 8 is wildfires event.
+  "categories": [
+    {
+      "id": 8,
+      "title": "Wildfires"
+    }
+  ],
+*/
+  const markers = eventData.map(ev => {
+    if (ev.categories[0].id === 8) {
+      return <LocationMarker lat={ev.geometries[0].coordinates[1]} lng={ev.geometries[0].coordinates[0]} />
+    }
+    return null;
+  })
+
   return (
     <div className='map'>
       <GoogleMapReact
@@ -10,7 +26,8 @@ const Map = ({center, zoom}) => {
         defaultCenter={center}
         defaultZoom={zoom}
       >
-        <LocationMarker lat={center.lat} lng={center.lng} />
+        {/*<LocationMarker lat={center.lat} lng={center.lng} />*/}
+        {markers}
       </GoogleMapReact>
     </div>
   );
