@@ -29,6 +29,7 @@ const Map = ({eventData, center, zoom}) => {
 
   return (
     <div className='map'>
+      {/*The map allows you to zoom in and zoom out by scroll, very nice!!! */}
       <GoogleMapReact
         bootstrapURLKeys={{ key: 'AIzaSyBM2bCgJ5IjAC3vVmKEppGhUbHqYbEoP14' }}
         defaultCenter={center}
