@@ -17,3 +17,4 @@ C:\react\wildfire-tracker>npm install
 mdi: material design icons
 C:\react\wildfire-tracker>npm i google-map-react @iconify/react @iconify/icons-mdi
 
+C:\react\wildfire-tracker>npm run start
