@@ -7,6 +7,10 @@ https://eonet.sci.gsfc.nasa.gov/docs/v2.1
 https://eonet.sci.gsfc.nasa.gov/api/v2.1/events
 https://github.com/google-map-react/google-map-react
 https://developers.google.com/maps/documentation/javascript/get-api-key
+https://console.cloud.google.com/apis/credentials?project=feisty-mason-296402
+https://developers.google.com/maps/gmp-get-started#enable-api-sdk   <<< Need to enable Maps JavaScript API
+
+
 https://github.com/iconify/iconify
 https://github.com/iconify/iconify-react
 https://www.npmjs.com/package/@iconify/icons-mdi
