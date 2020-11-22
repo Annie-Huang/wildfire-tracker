@@ -9,3 +9,8 @@ body {
   height: 100vh;
   position: relative; /*because we need to do position absolute later */
 }
+
+.location-icon {
+  font-size: 2rem;
+  color: red;
+}
