@@ -1,5 +1,6 @@
 Build a Wildfire Tracker With React & NASA API (https://www.youtube.com/watch?v=ontX4zfVqK8&t=18s)
 
+https://github.com/bradtraversy/wildfire-tracker
 https://github.com/Annie-Huang/wildfire-tracker
 
 https://api.nasa.gov/   << go to "EONET: Earth Observatory Natural Event Tracker" section
